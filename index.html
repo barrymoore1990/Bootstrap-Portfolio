@@ -50,10 +50,9 @@
 
           <!-- Hero Section -->
           <div class="jumbotron">
-            <h2 class="display-4 jumbotron-text">Barry Moore. My Second Portfolio</h1>
             <img class="profile-image" src="images/Barry.png" alt="">
+            <h2 class="display-4 jumbotron-text">Barry Moore. My Second Portfolio</h1>
             <p class="lead jumbotron-text">
-                
                 This portfolio highlights some of the work I've done
             </p>
           </div>
@@ -62,37 +61,78 @@
           <div class="container">
             <div class="row">
               <div class="col-sm">
-                <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card h-100">
+                  <img class="card-img-top" src="images/Weather.jpg" alt="Weather Image">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Weather Dashboard</h5>
+                    <p class="card-text">Search for a city to view it's current weather, plus the next 5 days. Features storing data in local storage</p>
+                    <a href="https://barrymoore1990.github.io/week-8-weather-dashboard/" class="btn btn-primary">View</a>
                   </div>
                 </div>
               </div>
               <div class="col-sm">
-                <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card h-100">
+                  <img class="card-img-top" src="images/README.jpg" alt="README image">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">README Generator</h5>
+                    <p class="card-text">Using node & inquirer, this project auto generates a README after the user answers questions</p>
+                    <a href="https://barrymoore1990.github.io/week-11-readme-generator/" class="btn btn-primary">View</a>
                   </div>
                 </div>
               </div>
               <div class="col-sm">
-                <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card h-100">
+                  <img class="card-img-top" src="images/daily-planner.jpg" alt="Daily planner image">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Daily Planner</h5>
+                    <p class="card-text">Insert information by hour of a day to schedule your day. Click save to store the data</p>
+                    <a href="https://barrymoore1990.github.io/weekly-planner-app/" class="btn btn-primary">View</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <!-- Skills Section -->
+          <div class="container-fluid">
+            <h2>Skills</h2>
+            <ul class="list-group">
+              <li class="list-group-item">HTML</li>
+              <li class="list-group-item">CSS</li>
+              <li class="list-group-item">Javascript</li>
+              <li class="list-group-item">Git</li>
+              <li class="list-group-item">React</li>
+            </ul>
+          </div>
+
+          <!-- About Me Section -->
+          <div class="container-fluid">
+            <h2>About Me</h2>
+            <div class="row about-me">
+              <p>I'm Barry, a student developer. I've created this website to showcase my work, which currently consists of basically nothing whatsoever as I've only been studying it for 2 weeks! That should change soon with more projects coming up over the next few months.
+                Outside of the development world, I own a startup travel company, Touring Highlights, which is where I'll be using my coding skills to develop a new booking system for the business.    
+                Contact me today to get help coding your problems, for overinflated prices.</p>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <h2 class="title-margin">Contact Me</h2>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Agree to receive marketing material</label>
+            </div>
+            <button type="submit" class="btn btn-primary form-button">Submit</button>
+          </form>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
