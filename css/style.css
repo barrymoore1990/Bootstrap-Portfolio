@@ -4,6 +4,10 @@
     --text-color: #0d0d0d;;
   }
 
+a:hover {
+  background-color: #ef9273;
+}
+
 .jumbotron {
     background-image: url("../images/02-hero-bg.jpg");
     background-repeat: no-repeat;
@@ -30,6 +34,10 @@
   background-color: var(--main-bg-color);
 }
 
+.btn:hover {
+  box-shadow: 5px 5px #0d0d0d;
+}
+
 .card {
   margin-top: 20px;
 }
@@ -40,13 +48,10 @@
   height: 60%;
 }
 
-.about-me {
-  width: 90%;
-}
-
 .container-fluid {
   margin: 40px 7%;
   padding: 0;
+  width: 80%;
 }
 
 .title-margin,
@@ -60,4 +65,12 @@
 
 .form-button {
  margin: 20px 7%; 
+}
+
+.form-group {
+  max-width: 60%;
+}
+
+.foot {
+  width: 80%;
 }

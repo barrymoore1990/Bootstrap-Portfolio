@@ -13,37 +13,28 @@
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Barry Moore // Web Developer</a>
+              <a class="navbar-brand" name="top" href="#top">Barry Moore // Web Developer</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#skills">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="#about">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/barrymoore1990/">Github</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
@@ -58,7 +49,7 @@
           </div>
 
           <!-- Grid section for my work -->
-          <div class="container">
+          <a name="portfolio"><div class="container"></a>
             <div class="row">
               <div class="col-sm">
                 <div class="card h-100">
@@ -94,7 +85,7 @@
           </div>
 
           <!-- Skills Section -->
-          <div class="container-fluid">
+          <a name="skills"><div class="container-fluid"></a>
             <h2>Skills</h2>
             <ul class="list-group">
               <li class="list-group-item">HTML</li>
@@ -106,7 +97,7 @@
           </div>
 
           <!-- About Me Section -->
-          <div class="container-fluid">
+          <a name="about"><div class="container-fluid"></a>
             <h2>About Me</h2>
             <div class="row about-me">
               <p>I'm Barry, a student developer. I've created this website to showcase my work, which currently consists of basically nothing whatsoever as I've only been studying it for 2 weeks! That should change soon with more projects coming up over the next few months.
@@ -116,8 +107,8 @@
           </div>
 
           <!-- Contact Form -->
-          <h2 class="title-margin">Contact Me</h2>
-          <form>
+          <a name="contact"><h2 class="title-margin">Contact Me</h2></a>
+          <form class="width-form">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -133,6 +124,20 @@
             </div>
             <button type="submit" class="btn btn-primary form-button">Submit</button>
           </form>
+
+          <div class="container-fluid foot">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-top pb-3 mb-3">
+                <li class="nav-item"><a href="#top" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link px-2 text-muted">Portfolio</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link px-2 text-muted">Skills</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About Me</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact Me</a></li>
+                <li class="nav-item"><a href="https://github.com/barrymoore1990/" class="nav-link px-2 text-muted">Github</a></li>
+              </ul>
+              <p class="text-center text-muted">&copy; 2023 Barry Moore</p>
+            </footer>
+          </div>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
